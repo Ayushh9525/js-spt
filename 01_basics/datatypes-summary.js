@@ -36,3 +36,7 @@ const myFunction = function() {
 myFunction()
 
 console.log(typeof bigNumber)
+
+console.log(typeof heros)
+console.log(typeof myFunction)
+console.log(typeof myObj)
