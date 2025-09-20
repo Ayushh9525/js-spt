@@ -51,3 +51,22 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('email'));
 
 
+
+
+
+
+
+
+//****************Destructuring************************/
+
+
+const course = {
+    courseName: "js",
+    price : "999",
+    faculty : "asasdfa"
+}
+
+// console.log(course.faculty)
+
+const {price} = course
+console.log(price)
